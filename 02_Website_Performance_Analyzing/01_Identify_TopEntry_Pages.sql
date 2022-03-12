@@ -7,7 +7,7 @@ SELECT
     MIN(website_pageview_id) AS first_pv -- aka the first pageview in the session
 FROM 
 	website_pageviews
-WHERE created_at < '2012-06-12'
+WHERE created_at < '2012-06-14'
 GROUP BY 
 	website_session_id;
 
